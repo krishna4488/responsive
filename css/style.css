@@ -1,0 +1,855 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+body
+{
+    margin-left:0px;
+    margin-right:0px;
+    overflow-x: hidden; overflow-y: auto;
+}
+.navbar {
+      margin-bottom: 0;
+      background-color:lightseagreen;
+      z-index: 9999;
+     color:white;
+      border: 0;
+      font-size: 12px !important;
+      line-height: 1.42857143 !important;
+      letter-spacing: 4px;
+      border-radius: 0;
+      font-family: Montserrat, sans-serif;
+    
+  }
+
+
+
+.left img
+{
+  width:150px;
+    height:150px;
+    margin-top:15px;
+}
+
+  .navbar li a, .navbar .navbar-brand {
+      color: #fff !important;
+       margin-left:30px;
+      margin-right:40px;
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+      color: #f4511e !important;
+      background-color: #fff !important;
+  }
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+      color: #fff !important;
+  }
+.navbar-nav>li>a {
+   
+    line-height: 28px;
+}
+  
+  .logo img
+{
+   
+   height:100px;
+    width:350px;
+    margin-left:30px;
+   
+}
+.con
+{
+  text-align: center;
+    color:lightseagreen;
+   
+}
+.banner {
+    background: url(../img/banners.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    height: 450px;
+    padding-top: 50px;
+}
+.cone
+{
+    margin-left:80px;
+    margin-top:60px;
+}
+.t1
+{
+    text-align:center;
+}
+
+.content
+{
+    background-color:lightseagreen;
+}
+.p1 p
+{
+    margin-right:65px;
+}
+.be img
+{
+    margin-left:20px;
+}
+.content .b1
+{
+    margin-left:0px;
+    margin-right:60px;
+}
+.content h3
+{
+   margin-left:150px;
+    margin-right:20px;
+    color:white;
+    font-size:30px;
+}
+.ex5
+{
+    background-color:lightseagreen;
+}
+.p1 {
+    margin-left: 33px;
+}
+.p1 img {
+   
+    border: 1px solid #e8e8e8;
+  
+}
+.container.proc h3 {
+    text-align: center;
+}
+.col-md-2.p1 p {
+    text-align: center;
+  
+}
+.proc h3
+{
+   margin-top:30px;
+    margin-bottom:30px;
+}
+input#ex5 {
+    background-color: lightseagreen;
+    color: white;
+}
+#ex5
+{
+    color:white;
+}
+
+button
+{
+    background-color: lightseagreen;
+ 
+}
+.col-md-2.p1 img {
+    height: 142px;
+    background-color: #7fe07f;
+}
+
+footer {
+    background-color: rgb(63, 67, 72);
+
+    width: 100%;
+    bottom: 0;
+    font-weight: lighter;
+    color: white;
+}
+.footerHeader{
+    width:100%;
+    padding:1em;
+   background-color: rgb(63, 67, 72);
+    text-align:center;
+    color:white;
+}
+footer h3{
+    font-weight:lighter;
+}
+footer ul{
+    padding-left:5px;
+    list-style:none;
+}
+footer p{
+    text-align : justify;
+    font-size : 12px;
+}
+footer iframe {
+    width:100%;
+    position:relative;
+    height:170px;
+}
+.sm{
+    list-style:none;
+    overflow:auto;
+}
+.sm li {
+    display: inline;
+    padding:5px;
+    float:left;
+} 
+.sm li a img {
+    width:32px;
+}
+
+
+
+#contatti{
+  background-color: #70c3be;
+  letter-spacing: 2px;
+  }
+#contatti a{
+  color: #fff;
+  text-decoration: none;
+}
+
+
+@media (max-width: 575.98px) {
+
+  #contatti{padding-bottom: 800px;}
+  #contatti .maps iframe{
+    width: 100%;
+    height: 450px;
+  }
+ }
+
+
+@media (min-width: 576px) {
+
+   #contatti{padding-bottom: 800px;}
+
+   #contatti .maps iframe{
+     width: 100%;
+     height: 450px;
+   }
+ }
+
+@media (min-width: 768px) {
+
+  #contatti{padding-bottom: 350px;}
+
+  #contatti .maps iframe{
+    width: 100%;
+    height: 850px;
+  }
+}
+
+@media (min-width: 992px) {
+  #contatti{padding-bottom: 200px;}
+
+   #contatti .maps iframe{
+     width: 100%;
+     height: 700px;
+   }
+}
+
+
+#author a{
+  color: #fff;
+  text-decoration: none;
+    
+}
+.back
+{
+    background-color:#f5f1ed;
+    margin-top:40px;
+    margin-bottom:40px;
+}
+.co
+{
+    margin-left: 40px;
+}
+.co h3
+{
+    color:#353571;
+}
+a.left.carousel-control {
+    opacity: 0;
+}
+
+a.right.carousel-control {
+    opacity: 0;
+}
+video
+{
+    margin-left:60px;
+    margin-top: -30px;
+}
+.be
+{
+    border-left:solid 2px #f5f1ed;
+    
+}
+.footers
+{
+     background-color: rgb(65, 67, 68,1);
+}
+.proc
+{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.pr
+{
+    margin-top:20px;
+    margin-bottom:30px;
+}
+
+
+
+
+/ carousel /
+#quote-carousel 
+{
+  padding: 0 10px 30px 10px;
+  margin-top: 30px 0px 0px;
+}
+
+/ Control buttons  /
+#quote-carousel .carousel-control
+{
+  background: none;
+  color: #222;
+  font-size: 2.3em;
+  text-shadow: none;
+  margin-top: 30px;
+}
+/ Previous button  /
+#quote-carousel .carousel-control.left 
+{
+  left: -12px;
+}
+/ Next button  /
+#quote-carousel .carousel-control.right 
+{
+  right: -12px !important;
+}
+/ Changes the position of the indicators /
+#quote-carousel .carousel-indicators 
+{
+  right: 50%;
+  top: auto;
+  bottom: 0px;
+  margin-right: -19px;
+}
+/ Changes the color of the indicators /
+#quote-carousel .carousel-indicators li 
+{
+  background: #c0c0c0;
+}
+#quote-carousel .carousel-indicators .active 
+{
+  background: #333333;
+}
+#quote-carousel img
+{
+  width: 250px;
+  height: 100px
+}
+/ End carousel /
+
+.item blockquote {
+    border-left: none; 
+    margin: 0;
+}
+
+.item blockquote img {
+    margin-bottom: 10px;
+}
+
+.item blockquote p:before {
+    content: "\f10d";
+    font-family: 'Fontawesome';
+    float: left;
+    margin-right: 10px;
+}
+
+
+
+/**
+  MEDIA QUERIES
+*/
+
+/ Small devices (tablets, 768px and up) /
+@media (min-width: 768px) { 
+    #quote-carousel 
+    {
+      margin-bottom: 0;
+      padding: 0 40px 30px 40px;
+      margin-top: 30px;
+    }
+    
+}
+
+/ Small devices (tablets, up to 768px) /
+@media (max-width: 768px) { 
+    
+    / Make the indicators larger for easier clicking with fingers/thumb on mobile /
+    
+    #quote-carousel .carousel-indicators {
+        bottom: -20px !important;  
+    }
+    #quote-carousel .carousel-indicators li {
+        display: inline-block;
+        margin: 0px 5px;
+        width: 15px;
+        height: 15px;
+    }
+    #quote-carousel .carousel-indicators li.active {
+        margin: 0px 5px;
+        width: 20px;
+        height: 20px;
+    }
+}
+
+
+.tx p{
+    
+ padding-top: 15px !important; 
+
+}
+
+.im img {
+    height: 120px;
+    width: 120px;
+    
+    border: 2px solid black;
+}
+
+.txt1 i {
+    color: white;
+    background-color: #b30e0e;
+    margin-left: 2px;
+/*    font-size: 18px;*/
+    padding: 3px;
+}
+
+
+.txt1 h3 {
+    text-align: center;
+    color: black;
+}
+.txt1 p {
+    text-align: center;
+}
+.txt2 h3 {
+    text-align: center;
+}
+.txt2 p {
+    text-align: center;
+}
+i.fas.fa-star {
+    font-size: 25px;
+    margin-left: 6px;
+}
+
+i.fa.fa-chevron-right {
+    background-color: transparent !important;
+    color: #a1a1a1 !important;
+}
+i.fa.fa-chevron-left {
+    background-color: transparent !important;
+    color: #a1a1a1 !important;
+}
+.col-md-5.txt1 {
+    border-right: 2px solid gray;
+}
+.peop {
+    border: 3px solid #20b2aa;
+    padding: 20px;
+}
+.peopl h2 {
+    text-align: center;
+
+}
+.peopl h2 {
+    padding: 35px;
+}
+.mar
+{
+    margin-bottom: 30px;
+}
+section.login.form {
+    background-color: #dfe0e5;
+   
+    
+  
+      
+}
+img#herbal {
+    margin-left: 20px;
+}
+section.proce.extra {
+    background-color: #eff5f4;
+}
+
+.ha
+{
+    text-align:center;
+}
+.dro
+{
+    margin-top:20px;
+}
+
+.l1 h3
+{
+  text-align:center;  
+}
+
+
+.form-control1 {
+    display: block;
+    width: 100%;
+    height: 44px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.contact {
+    background-color: #e9e8e8;
+}
+.c2 h3 {
+    text-align: center;
+}
+textarea.form-control1 {
+    height: 100px;
+}
+.c2 form {
+    padding: 26px;
+}
+.btn-default1 {
+    color: #fbfafa;
+    background-color: #20b2aa;
+    border-color: #ccc;
+}
+.container.cont {
+    padding: 40px;
+}
+
+.p1 #a1
+{
+    background-color:burlywood;
+    height:100px;
+    width:100px;
+    padding:10px;
+}
+
+.p1 #a2
+{
+    background-color:cornsilk;
+    height:100px;
+    width:100px;
+    padding:10px;
+}
+.p1 #a3
+{
+  background-color:hotpink;  
+     height:100px;
+    width:100px;
+    padding:10px;
+}
+.p1 #a4
+{
+  background-color:thistle; 
+     height:100px;
+    width:100px;
+    padding:10px;
+}
+.p1 #a5
+{
+  background-color:lemonchiffon;  
+     height:100px;
+    width:100px;
+    padding:10px;
+}
+.p1 #a6
+{
+  background-color:beige;
+     height:100px;
+    width:100px;
+    padding:10px;
+}
+.p1 #a7
+{
+  background-color:azure;
+     height:100px;
+    width:100px;
+    padding:10px;
+}
+.p1 #a8
+{
+  background-color:cyan; 
+     height:100px;
+    width:100px;
+    padding:10px;
+}
+.p1 #a9
+{
+  background-color:darkslategray; 
+     height:100px;
+    width:100px;
+    padding:10px;
+}
+.p1 #a10
+{
+  background-color:blanchedalmond;  
+     height:100px;
+    width:100px;
+    padding:10px;
+}
+
+
+
+
+.vertical .carousel-inner {
+  height: 100%;
+}
+
+.carousel.vertical .item {
+  -webkit-transition: 0.6s ease-in-out top;
+     -moz-transition: 0.6s ease-in-out top;
+      -ms-transition: 0.6s ease-in-out top;
+       -o-transition: 0.6s ease-in-out top;
+          transition: 0.6s ease-in-out top;
+}
+#myCarousel
+    {
+        width:240px;
+        height:350px;
+        margin-top: -241px;
+    margin-left: 1007px;
+  
+}
+    
+.carousel.vertical .active {
+  top: 0;
+}
+.d1 img
+{
+    margin-bottom:20px;
+}
+.carousel.vertical .next {
+  top: 400px;
+    
+}
+
+.carousel.vertical .prev {
+  top: -400px;
+     
+}
+
+.carousel.vertical .next.left,
+.carousel.vertical .prev.right {
+  top: 0;
+  
+}
+
+.carousel.vertical .active.left {
+  top: -400px;
+     color:blue;
+     
+}
+
+.carousel.vertical .active.right {
+  top: 400px;
+}
+
+.carousel.vertical .item {
+    left: 0;
+     color:blue;
+}
+
+.btn-vertical-slider{ margin-left:35px; cursor:pointer;}
+a {  cursor:pointer;}
+.carousel.vertical .carousel-inner .item {
+  -webkit-transition: 0.6s ease-in-out top;
+     -moz-transition: 0.6s ease-in-out top;
+      -ms-transition: 0.6s ease-in-out top;
+       -o-transition: 0.6s ease-in-out top;
+          transition: 0.6s ease-in-out top;
+}
+
+ .carousel.vertical .active {
+  top: 0;
+}
+
+ .carousel.vertical .next {
+  top: 100%;
+}
+
+ .carousel.vertical .prev {
+  top: -100%;
+}
+
+ .carousel.vertical .next.left,
+.carousel.vertical .prev.right {
+  top: 0;
+}
+
+ .carousel.vertical .active.left {
+  top: -100%;
+}
+
+ .carousel.vertical .active.right {
+  top: 100%;
+}
+
+ .carousel.vertical .item {
+    left: 0;
+}
+
+
+@media screen and (max-width: 1444px)
+    
+    
+{
+ .navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+    margin-left: 50px;
+    margin-right: 18px;
+}   
+    
+    
+}
+
+
+
+@media screen and (max-width: 1024px)
+{
+  .navbar li a, .navbar .navbar-brand
+    {
+    color: #fff !important;
+    margin-left: 23px;
+    margin-right: -6px;
+     }
+    .container.proc.l1 
+    {
+    width: 993px;
+     }
+    
+     .container.proc
+    {
+        width:993px;
+    }
+#myCarousel {
+    width: 240px;
+    height: 350px;
+    margin-top: -241px;
+    margin-left: 766px;
+}
+  
+}
+
+
+@media screen and (max-width: 768px)
+{
+ .navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+    margin-left: -18px;
+    margin-right: -6px;
+}
+    
+ .navbar-collapse {
+    padding-right: 16px;
+    padding-left: 0px;
+    }
+    
+    .p1 {
+    margin-left: -10px;
+}
+    
+    
+    .navbar {
+   
+    letter-spacing: 3px;
+   
+}
+    .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+    margin-right: 15px;
+    word-spacing: 4px;
+   
+}
+    #myCarousel {
+    width: 240px;
+    height: 350px;
+    margin-top: -201px;
+    margin-left: 509px;
+}
+    
+}
+
+
+@media screen and (max-width: 425px)
+{
+    
+.container.proc.l1 {
+    width: 437px;
+}
+    
+    .container.proc {
+    width: 175px;
+}
+    
+ .navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+    margin-left: 15px;
+    margin-right: -6px;
+}   
+ .row.banner {
+    width: 108%;
+}
+    .content h3 {
+    margin-left: 25px;
+    margin-right: 20px;
+    color: white;
+    font-size: 30px;
+}
+    
+    
+}
+
+@media screen and (max-width: 375px)
+{
+
+video {
+    margin-left: 0px;
+    
+}
+
+}
+
+@media screen and (max-width: 320px)
+{
+
+.container.proc.l1 {
+    width: 331px;
+}
+  
+    .row.banner {
+    width: 110%;
+}
+    
+    .row h3
+    {
+           margin-left: 45px; 
+    }
+    video {
+    margin-left: 0px;
+   
+}
+    .be img {
+    margin-left: 15px;
+}
+}
